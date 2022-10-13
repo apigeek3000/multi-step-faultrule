@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="error-handling">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1665677639273</CreatedAt>
+  <LastModifiedAt>1665677639273</LastModifiedAt>
+  <BasePaths>/error-handling</BasePaths>
+  <Policies>
+    <Policy>verify-api-key</Policy>
+    <Policy>remove-query-param-apikey</Policy>
+    <Policy>Set-Error-Payload</Policy>
+    <Policy>Log-Error-Callout</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+</APIProxy>

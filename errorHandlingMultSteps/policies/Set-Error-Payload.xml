@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage continueOnError="false" enabled="true" name="Set-Error-Payload">
+  <DisplayName>Set Error Payload</DisplayName>
+  <Properties/>
+  <Set>
+    <Payload contentType="application/json">{"what_to_say_if_error":"YOU SHALL NOT PASS!"}</Payload>
+  </Set>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>
